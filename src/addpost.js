@@ -43,15 +43,15 @@ return(
                 <a href='/' className='btn btn-primary'>see posts</a>
                 <br>
                 </br>
-               <input type="text" placeholder='title' className='from-control'
+               <input type="text" placeholder='title' className='form-control'
                value={title} onChange={(e)=>{settitle(e.target.value)}}/>
                <br>
                </br>
-               <input type="text" placeholder='imageurl' className='from-control'  
+               <input type="text" placeholder='imageurl' className='form-control'  
                value={imageurl} onChange={(e)=>{setimageurl(e.target.value)}}/>
                <br>
                </br>
-               <textarea  cols="30" rows="10" placeholder='description' className='from-control'
+               <textarea  cols="30" rows="10" placeholder='description' className='form-control'
                  value={description} onChange={(e)=>{setdescription(e.target.value)}}/> 
                  <br>
                  </br>          
